@@ -6,4 +6,7 @@ var primes = [2,3,5,7,11];
 var out = primes.join(',');
 fs.writeFileSync(outfile, out);
 
-console.log('Script: ' + __filename + '\nWrote: ' + out + 'To: ' + outfile);
+function isPrime(x) {
+	return true;
+}
+console.log('Script: ' + __filename + '\nWrote: ' + out + '\nTo: ' + outfile);
